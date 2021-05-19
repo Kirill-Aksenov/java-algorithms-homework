@@ -28,7 +28,7 @@ public class Main {
                 + " наносекунд\n");
 
         System.out.println("Задание 5.6");
-        int[] arrayForSortMerge = { 71, 39, 28, 11, 55, 66, 59, 30, 98, 82 };;
+        int[] arrayForSortMerge = { 71, 39, 28, 11, 55, 66, 59, 30, 98, 82 };
         int[] arrayForMethodSort = arrayForSortMerge.clone();
         System.out.println("Неотсортированный массив: " + Arrays.toString(arrayForSortMerge));
         timeCheck = System.nanoTime();
